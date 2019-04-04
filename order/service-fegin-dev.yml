@@ -1,0 +1,8 @@
+server:
+  port: 8103
+feign:
+  hystrix:
+    enabled: false
+spring:
+  application:
+    name: trolley_feign
